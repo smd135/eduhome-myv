@@ -1,0 +1,35 @@
+/*----------------1200px*----------------*/
+@media (max-width: 1200px) {
+    main {
+        padding-inline: 2rem;
+    }
+    section {
+        padding-inline: 4rem;
+    }
+    .container {
+        max-width: 980px;
+        overflow-x: hidden;
+    }
+     .home-title {
+        font-size: 3.125rem;
+    }
+}
+/*----------------992px*----------------*/
+@media (max-width: 992px) {
+    main {
+        padding-inline: 2rem;
+    }
+    section {
+        padding-inline: 4rem;
+    }
+    .container {
+        max-width: 800px;
+        overflow-x: hidden;
+    }
+    .home-title {
+        font-size: 2.5rem;
+    }
+    .who .container {
+        grid-template-rows: 1fr 1fr;
+    }
+}
